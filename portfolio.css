@@ -1,0 +1,115 @@
+body {
+
+    text-align: center;
+    margin: 0;
+
+}
+
+.menu {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0;
+}
+
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.links:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px gray;
+    color: rgb(6, 38, 38);
+}
+
+.profile {
+    height: 500px;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+#welcome {
+    background-image: linear-gradient(to bottom right, rgb(243, 246, 246), rgb(20, 244, 244));
+    color: blue;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(15, 15, 62);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 20, 68);
+}
+
+#name {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bio {
+    color: rgb(4, 1, 53);
+    font-size: 40px;
+}
+.bio1{
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-size: 20px;
+    color: rgb(26, 26, 75);
+
+}
+
+#writings a:hover {
+    text-decoration: none;
+    color: rgb(16, 16, 59);
+}
+
+
+#writings a {
+    text-decoration: none;
+    color: rgb(81, 6, 185);
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+#contact {
+    background-color: rgb(84, 84, 239);
+
+}
+
+#contact iframe {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#contact_1 a {
+    color: white;
+    text-shadow: none;
+}
